@@ -1,0 +1,32 @@
+<html>
+
+    <head>
+        <title>
+            Tic Tac Toe!
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body onload="setGame()">
+        <center>
+            <section>
+                <h1>Tic Tac Toe</h1>
+                <div class="game-container">
+                    <button class="game-buttons" id="0" onclick="setButton(0,0,0)">?</button>
+                    <button class="game-buttons" id="1" onclick="setButton(1,0,1)">?</button>
+                    <button class="game-buttons" id="2" onclick="setButton(2,0,2)">?</button>
+                    <button class="game-buttons" id="3" onclick="setButton(3,1,0)">?</button>
+                    <button class="game-buttons" id="4" onclick="setButton(4,1,1)">?</button>
+                    <button class="game-buttons" id="5" onclick="setButton(5,1,2)">?</button>
+                    <button class="game-buttons" id="6" onclick="setButton(6,2,0)">?</button>
+                    <button class="game-buttons" id="7" onclick="setButton(7,2,1)">?</button>
+                    <button class="game-buttons" id="8" onclick="setButton(8,2,2)">?</button>
+                </div>
+                <h2 class="game-status" id="status"></h2>
+                <button class="game-reset" id="reset" onclick="gameReset()">Reset</button>
+            </section>
+        </center>
+        <script src="main.js"></script>
+    </body>
+
+</html>
